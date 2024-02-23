@@ -352,7 +352,7 @@ function _set_list_context(p, e, ctx){
 }
 
 function _set_subscript_context(p, e, ctx){
-    console.log('set subscritp cntext', p, e)
+    console.log('set subscript context', p, e)
     return $B._PyAST.Subscript(e.value, e.slice,
                             ctx, EXTRA_EXPR(e, e));
 }
